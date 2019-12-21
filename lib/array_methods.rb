@@ -12,6 +12,9 @@ def find_max_value(array)
   #Assumes are is not empty
 
   for i in 0...array.length
+    if i == 0 then
+      max = array[i]
+    end
     if array[i] > max then
       max = array[i]
     end
