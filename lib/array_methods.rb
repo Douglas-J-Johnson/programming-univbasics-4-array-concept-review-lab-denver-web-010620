@@ -23,5 +23,5 @@ end
 def find_min_value(array)
   # Assumes array is not emptye
 
-  
+
 end
