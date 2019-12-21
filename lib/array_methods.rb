@@ -24,6 +24,14 @@ end
 
 def find_min_value(array)
   # Assumes array is not emptye
+  for i in 0...array.length
+    if i == 0 then
+      min { |a, b|  } = array[i]
+    end
+    if array[i] < min then
+      min = array[i]
+    end
+  end
 
-
+  return min
 end
