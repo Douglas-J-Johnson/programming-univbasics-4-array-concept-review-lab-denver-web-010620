@@ -23,10 +23,10 @@ def find_max_value(array)
 end
 
 def find_min_value(array)
-  # Assumes array is not emptye
+  # Assumes array is not empty
   for i in 0...array.length
     if i == 0 then
-      min { |a, b|  } = array[i]
+      min = array[i]
     end
     if array[i] < min then
       min = array[i]
