@@ -9,7 +9,7 @@ def find_element_index(array, value_to_find)
 end
 
 def find_max_value(array)
-  max = 0
+  #Assumes are is not empty
 
   for i in 0...array.length
     if array[i] > max then
